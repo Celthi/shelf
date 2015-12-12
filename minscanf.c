@@ -16,28 +16,38 @@ int main(void)
 					  5,  6, 7, 8,
 					  4, 3, 4, 2};
 
-	mygetline(s,MAXLENGTH); 
-	printf("%s\n", s);
+	//mygetline(s,MAXLENGTH); 
+	//printf("%s\n", s);
 	int temp = 0;
 
 	int i,j;
 	i = j = 0;
 
+	int data = 0;
+	char stemp[10];
 	while (i < R && j < C) {
-		while (scanf(s, "%d", &temp) == 1)
+		data = scanf("%d", &temp);
+		//printf("%d\n", data);
+		while (data) {
 			a[i][j++] = temp;
-			i++;
-			j = 0;
+			data = scanf("%d", &temp);
+		//printf("%d\n", data);
+		}
+		i++;
+		j = 0;
+		/* when scanf fail, input stream will stop at the failed positon*
+		 *so scanf the failed ';' to stemp, and move to the next integer*/
+		scanf("%s", stemp);
 	}
 	i = j = 0;
 	int *aa = (int *)a;
-	i = R * C;
-	while(i--)
-		printf("%d ", *(aa + i));
+	i = 0;
+	while(i < R * C)
+		printf("%d ", *(aa + i++));
 	printf("\n");
 	aa = (int *)test;
 	i = 0;
-	while(i < 12)
+	while(i < R * C)
 		printf("%d ", *(aa + i++));
 }
 
@@ -47,7 +57,8 @@ int mygetline(char *s, int max)
 	while ((c = getchar()) != EOF && c != '\n' && max--) {
 		*s++ = c;
 	}
-	*s++ = c;
+	if (c == '\n')
+		*s++ = c;
 	*s = '\0';
 	return 1;
 }

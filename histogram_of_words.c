@@ -19,7 +19,7 @@ int main()
 	int fd;
 	fd = open("./histogram_of_words.c", O_RDONLY, 0);
 	dup2(fd, STDIN_FILENO);
-	int fdout;
+	dint fdout;
 	fdout = open("./output.txt",O_RDWR|O_CREAT, DEF_MODE);
 	dup2(fdout, STDOUT_FILENO);
 #endif
@@ -40,4 +40,4 @@ int main()
 	}
 	return 0;
 
-}
+} 
