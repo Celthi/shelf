@@ -3,8 +3,8 @@ I create this rep for my own learning, so you don't need to review it.
 
 Welcome to the shelf wiki!
 
-Solutions
---
+#Solutions
+
 ##Solutions to CLRS by skilled guys.
 
 https://github.com/gzc/CLRS
@@ -23,12 +23,11 @@ https://github.com/michaelliao/sicp
 
 https://github.com/McBadger/ppearls
 
-Programming Oysters
---
-Networking
-----
-https://github.com/bayandin/awesome-awesomeness
+#Programming Oysters
 
+#Networking
+
+https://github.com/bayandin/awesome-awesomeness
 
 https://github.com/clowwindy/Awesome-Networking
 
@@ -36,8 +35,8 @@ https://github.com/antirez/sds
 
 https://github.com/mw12/Academics
 
-Python
-----
+#Python
+
 http://flask.pocoo.org/
 
 https://github.com/michaelliao/githubpy
@@ -54,8 +53,8 @@ http://michaelliao.github.com/sinaweibopy/
 
 https://github.com/pangge/python-crawler-ccw
 
-C
-----
+#C
+
 https://github.com/chyyuu/ucore_os_lab
 
 https://github.com/viking-gps/viking
@@ -69,6 +68,6 @@ https://github.com/mewmew/gtkmap
 https://github.com/kmels/x-painter
 
 http://steshaw.org/ 
-C++
-----
+#C++
+
 https://github.com/twbs/bootstrap
