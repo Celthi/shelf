@@ -5,22 +5,22 @@ Welcome to the shelf wiki!
 
 Solutions
 --
-Solutions to CLRS by skilled guys.
-----
+##Solutions to CLRS by skilled guys.
+
 https://github.com/gzc/CLRS
 
 https://github.com/yidao620c/core-algorithm
 
 https://github.com/HardySimpson/clrs-notes-solutions
 
-Solutions to K&R
-----
-Solutions to SICP
-----
+##Solutions to K&R
+
+##Solutions to SICP
+
 https://github.com/michaelliao/sicp
 
-Solutions to Programming Pearls
-----
+##Solutions to Programming Pearls
+
 https://github.com/McBadger/ppearls
 
 Programming Oysters
